@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="nav">
+        <div class="title">
+            <h1>Blossoms</h1>
+        </div>
+        <div class="content">
+            <a href="./index.html">Home Page</a>
+            <a href="./shop.html">Shop</a>
+            <a href="./blog.html">Blog</a>
+            <a href="./contact.html">Contact</a>
+            <a href="./cart.html">Cart</a>
+        </div>
+    </div>
+
+    <h2 class="cart-heading">Your Cart</h2>
+
+    <div id="cart-items" class="cart-items">
+        <!-- Cart items will be dynamically added here -->
+    </div>
+
+    <div class="email-section">
+        <div class="email-container">
+          <h1 class="title">Blossoms</h1>
+          <p class="description">
+            Come find us in Nagercoil, where every thread tells a story and every
+            visit feels like a step into something beautiful.
+          </p>
+          <form class="email-form" action="#" method="POST">
+            <input
+              type="email"
+              placeholder="Enter your email"
+              required
+              class="email-input"
+            />
+            <button type="submit" class="go-button">Go</button>
+          </form>
+        </div>
+        <br>
+        <div class="icon">
+            <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-square-threads"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-solid fa-phone"></i></a>
+        </div>
+    </div>
+
+    <script src="./cart.js"></script> <!-- Link the cart JavaScript -->
+</body>
+</html>
+
